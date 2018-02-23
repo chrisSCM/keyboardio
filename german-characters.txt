@@ -1,0 +1,26 @@
+NEO2
+
+1. Zeile = kein Modifikator
+2. Zeile = SHIFT Modifikator
+3. Zeile = MOD3
+4. Zeile = MOD4
+
+12345
+!"§$%
+¹²³><
+
+xvlcw
+XVLCW
+…_[]^
+
+uiaeo
+UIAEO
+\/{}*
+
+üöäpz
+ÜÖÄPZ
+#$|~`
+
+
+
+------
