@@ -131,8 +131,8 @@ enum { NEOCHARS, M3, M4, FUNCTION, NUMPAD }; // layers
 const Key keymaps[][ROWS][COLS] PROGMEM = {
 
   [NEOCHARS] = KEYMAP_STACKED
-  (Key_Tab,          Key_1,           Key_2,         Key_3,     Key_4, Key_5, Key_Escape,
-   Key_Backtick,     Key_X,           Key_V,         Key_L,     Key_C, Key_W, Key_LeftAlt,
+  (Key_Escape,       Key_1,           Key_2,         Key_3,     Key_4, Key_5, Key_Backtick,
+   Key_Tab,          Key_X,           Key_V,         Key_L,     Key_C, Key_W, Key_LeftAlt,
    ShiftToLayer(M4), Key_U,           Key_I,         Key_A,     Key_E, Key_O,
    ShiftToLayer(M3), Key_LeftBracket, Key_Semicolon, Key_Quote, Key_P, Key_Y, Key_Delete,
    Key_LeftShift, Key_Spacebar, Key_Enter, Key_LeftControl,
@@ -184,10 +184,10 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
    ___, Key_Delete, ___, ___,
    ___,
 
-   Consumer_ScanPreviousTrack, Key_F6,      Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
-   Key_End,    Consumer_ScanNextTrack, Key_UpArrow,              Key_RightCurlyBracket,    Key_LeftBracket, Key_RightBracket, Key_F12,
-                    Key_LeftArrow,          Key_DownArrow,            Key_RightArrow,           ___,  ___,              ___,
-   Key_LeftGui,     Consumer_Mute,          Consumer_VolumeDecrement, Consumer_VolumeIncrement, ___,             Key_Backslash,    Key_Pipe,
+   Consumer_ScanPreviousTrack, Key_F6,      Key_F7,                   Key_F8,                  Key_F9,          Key_F10,          Key_F11,
+   Key_End,    Consumer_ScanNextTrack,      ___,                      Key_UpArrow,             Key_LeftBracket, Key_RightBracket, Key_F12,
+                     ___,                   Key_LeftArrow,            Key_DownArrow,           Key_RightArrow,  ___,                ___,
+   Key_LeftGui,     Consumer_Mute,          Consumer_VolumeDecrement, Consumer_VolumeIncrement, ___,            Key_Backslash,    Key_Pipe,
    ___, ___, Key_Enter, ___,
    ___),
 
